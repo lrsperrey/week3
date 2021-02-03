@@ -1,0 +1,28 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+p  {border-style: solid; 1px; border-color: green;}
+
+p.margin    {margin:16px;}
+p.margin-y  {margin: 16px 0;}
+p.margin-x  {margin-left: 16px; margin-right: 16px;}
+
+p.padding   {padding: 16px;}
+
+p.padding-x {padding-top: 16px; padding-bottom: 16px;}
+p.padding-y {padding-left: 16px; padding-right: 16;}
+
+p.margin-auto {width: 50%; text-align: center;margin-left: auto; margin-right: auto; margin-top: none; margin-bottom: none;}
+div.box {height: 100px; width: 40%; margin-top: 16px; margin-bottom: 16px; margin-left: 5%; margin-right: 5%; background-color: #333333;}
+
+div.left    {float: left;}
+div.right   {float:right}
+div.clr {clear: both;}
+div.w-90    {width: 90%;}
+
+div.display {border-style: solid; 1px; border-color: red}
+div. d-block{display: block;}
+div. d-inline {display: inline;}
+div. d-inline-block {display:inline-block}
+div.relative {width: 400px; background-color: #333333; position: relative; top: none; left: 100px;}
+div.absolute {position: absolute; height: 100px; width: 100px; background-color: #cccccc; top: 150px; left: 150px;}
+div.fixed {position: fixed; height: 50px;width: 100%; background-color: blue; color: white; top: 0px; left:0px ;}
