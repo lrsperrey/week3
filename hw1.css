@@ -16,13 +16,14 @@ div.box {height: 100px; width: 40%; margin-top: 16px; margin-bottom: 16px; margi
 
 div.left    {float: left;}
 div.right   {float:right}
-div.clr {clear: both;}
+div.clr {clear:both}
 div.w-90    {width: 90%;}
 
-div.display {border-style: solid; 1px; border-color: red}
-div. d-block{display: block;}
+a, p.display {border-style: solid; 1px; border-color: red;}
+span.display{border-style: solid; 1px; border-color: red;}
+div.d-block{display: block;}
 div. d-inline {display: inline;}
-div. d-inline-block {display:inline-block}
-div.relative {width: 400px; background-color: #333333; position: relative; top: none; left: 100px;}
+div. d-inline-block {display:inline-block;}
+div.relative {height: 400px; width: 400px; background-color: #333333; position: relative; top: none; left: 100px;}
 div.absolute {position: absolute; height: 100px; width: 100px; background-color: #cccccc; top: 150px; left: 150px;}
 div.fixed {position: fixed; height: 50px;width: 100%; background-color: blue; color: white; top: 0px; left:0px ;}
