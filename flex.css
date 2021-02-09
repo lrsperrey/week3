@@ -1,0 +1,56 @@
+*{margin:0; padding: 0; box-sizing: border-box; scroll-behavior: smooth;}
+
+body{font-family:Arial; font-size:14px; font-color:red; background-color: #333;}
+
+.container{ max-width: 1200px margin:0;}
+
+.d-flex{display: flex;}
+
+.btn{padding: 0.5rem 2rem 0.5rem 2rem;border: none; border-radius: 25px; cursor: pointer;}
+
+.btn:hover{background: #333;color: white;}
+
+.btn-lg{padding: 1rem 4rem 1rem 4rem; font-size: 1.2rem;}
+
+nav{position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: white;
+    z-index: 1;
+}
+nav>div{height: 100%; 
+    justify-content: space-between;
+    align-items: center;}
+
+    h1{cursor: pointer;}
+    nav h1:hover{color: green;}
+ul li{padding: 0.2rem 1rem; cursor: pointer;}
+ul li:last-child {padding-right: 0;}
+
+#showcase{height: 100%; background: green; color: white; display: flex;
+}
+
+#showcase div {height: 100%;width: 100%; flex-direction: column;align-content: center;}
+
+#showcase h1{font-size: 3.5rem; margin-bottom: 1rem;}
+
+#div p{font-size: 1.25rem; padding: 0 10rem;align-content: center; margin-bottom: 1rem;}
+
+#cards{height:100%; background: blue; color: white; display: flex;}
+.container{align-content: center;justify-content: center;}
+
+.cards{padding: 2rem; margin: 0 1rem; height: 60%; flex-direction: column; justify-content: space-around; 
+    border: solid 3px white; border-radius: 5px;}
+
+ .fas fa-cogs{font-size: 2.5rem; margin-bottom: 1.5rem;}  
+ .lead{text-align: center; font-size: 1.7rem; font-weight: bold;margin-bottom: 1rem; }
+ .cards p{text-align: justify;}
+
+ footer{background: #333;color: white;}
+
+ .container{ flex-direction: column;align-items: center;}
+ .container h3{margin: 2rem 0;}
+.container p{margin-bottom: 1rem;}
+.container a{color: white; margin-bottom: 1rem;}
